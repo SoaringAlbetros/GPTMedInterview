@@ -1,0 +1,47 @@
+# ... [all the imports and functions remain the same] ...
+
+# Define medical questions based on the categories you provided
+MEDICAL_QUESTIONS = {
+    "Uro-Genital": [
+        "Is there anybody in your family with Breast cancer?",
+        "Is there anybody in your family with Prostate Cancer?",
+        # ... other questions ...
+    ],
+    # ... other categories ...
+}
+
+# ... [rest of the code remains the same] ...
+
+st.title("Medical AI Interviewer")
+
+st.write("Welcome to the Medical AI Interviewer. Please answer the following medical questions:")
+
+# Initialize session state to track responses
+if "medical_history" not in st.session_state:
+    st.session_state.medical_history = []
+    st.session_state.medical_history.append(Message(origin="ai", message="Hello, I am your medical interviewer today. I will ask you some questions regarding your medical history and current health. Please start by saying hello or introducing yourself. Note: The maximum length of your answer is 4097 tokens!"))
+
+# ... [rest of the code remains the same] ...
+
+if position and resume:  # This condition might need to be changed based on the medical context
+    # initialize session state
+    initialize_session_state_resume()  # This function might need to be renamed or adapted for the medical context
+
+    # ... [rest of the code remains the same] ...
+
+    with chat_placeholder:
+        for answer in st.session_state.medical_history:
+            if answer.origin == 'ai':
+                if auto_play and audio:
+                    with st.chat_message("assistant"):
+                        st.write(answer.message)
+                        st.write(audio)
+                else:
+                    with st.chat_message("assistant"):
+                        st.write(answer.message)
+            else:
+                with st.chat_message("user"):
+                    st.write(answer.message)
+
+    credit_card_placeholder.caption(f"""
+                    Progress: {int(len(st.session_state.medical_history) / len(MEDICAL_QUESTIONS) * 100)}% completed.""")
