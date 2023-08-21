@@ -1,22 +1,6 @@
 
 
-# AI Interviewer - Version 0.1.2
-
-Welcome to AI Interviewer! 👏 AI Interviewer is a cutting-edge application powered by generative AI designed to conduct mock interviews. With the ability to analyze your uploaded resume and job descriptions, AI Interviewer generates tailored questions to enhance your interview preparation. You even have the flexibility to customize your own interviewing experience!
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Getting Started](#getting-started)
-- [Features](#features)
-- [Upcoming Updates](#upcoming-updates)
-- [Feedback](#feedback)
-- [Contact](#contact)
-<!-- - [Acknowledgments](#acknowledgments) -->
-
----
-
-# Medical AI Interviewer
+# Medical AI Interviewer Version 0.1.2
 
 This repository is an adaptation of the original [GPTInterviewer](https://github.com/jiatastic/GPTInterviewer) designed specifically for medical interviews. The primary goal of this adaptation is to facilitate efficient and structured interviews for first-time patients, gathering essential medical history and current health information.
 
