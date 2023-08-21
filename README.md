@@ -14,55 +14,42 @@ Welcome to AI Interviewer! 👏 AI Interviewer is a cutting-edge application pow
 - [Contact](#contact)
 <!-- - [Acknowledgments](#acknowledgments) -->
 
-## Overview
+---
 
-AI Interviewer aims to revolutionize your interview preparation process. Whether you're seeking to improve your technical skills, communication abilities, or adaptability, this application can assist you. Powered by cutting-edge technology from OpenAI, FAISS, and Langchain, AI Interviewer provides a seamless experience that simulates real interview scenarios.
+# Medical AI Interviewer
 
-## Getting Started
+This repository is an adaptation of the original [GPTInterviewer](https://github.com/jiatastic/GPTInterviewer) designed specifically for medical interviews. The primary goal of this adaptation is to facilitate efficient and structured interviews for first-time patients, gathering essential medical history and current health information.
 
-To begin your AI Interviewer experience, follow these simple steps:
+## Purpose
 
-1. **Select Interview Type:** Choose from the following interview screens:
-   - **Homepage:** Overview of AI Interviewer.
-   - **Behavioral Screen:** Assess your behavioral skills.
-   - **Professional Screen:** Evaluate your technical skills.
-   - **Resume Screen:** Review your uploaded resume.
-   
-2. **Customize Your Experience:** Tailor your interview by uploading your resume and providing job descriptions.
+The Medical AI Interviewer aims to:
 
-3. **Choose Interaction Style:** Opt for your preferred interaction style, whether it's through chat or voice.
-
-4. **Start Interviewing:** Begin the interview by introducing yourself and responding to AI-generated questions.
+- **Streamline Patient Onboarding:** Reduce the time taken for initial consultations by gathering preliminary information before the patient meets the doctor.
+  
+- **Standardize Interviews:** Ensure that all essential questions are asked consistently for every patient, reducing the chances of missing critical information.
+  
+- **Enhance Patient Experience:** Allow patients to provide their medical history and concerns in a structured manner, ensuring they feel heard and understood.
 
 ## Features
 
-- **Personalized Questions:** AI Interviewer generates interview questions customized to your uploaded resume and job descriptions.
+- **Customized Medical Questions:** Tailored questions based on various medical categories such as Uro-Genital, Bone, Skin, and more.
+  
+- **Session State Management:** Track patient responses to ensure context is maintained throughout the interview.
+  
+- **Secure Data Storage:** Patient responses are saved securely, ensuring data privacy and compliance with medical regulations.
 
-- **Multiple Screens:** Access different screens for behavioral, professional, and resume-related interview aspects.
+## How to Use
 
-- **Interactive Experience:** Engage in a conversation with the AI interviewer, enhancing the realism of the interview process.
+1. **Start the Interview:** Launch the Medical AI Interviewer and begin the interview process.
+  
+2. **Answer Questions:** The patient will be prompted with a series of medical questions. Answer each question to the best of your ability.
+  
+3. **Review & Submit:** At the end of the interview, review the provided information and submit it. The data will be securely stored and made available to the medical practitioner for the consultation.
 
-- **Easy Refresh:** Initiate a new interview session simply by refreshing the page.
+## Contribution
 
-- **Choice of Interaction:** Select between chat-based or voice-based interaction styles for your interviews.
+Contributions to enhance the Medical AI Interviewer are welcome! Please ensure that any changes maintain the integrity and security of patient data.
 
-## Upcoming Updates
-
-We are constantly working to improve AI Interviewer and bring you new features. In the pipeline:
-
-- Enhanced AI capabilities for even more realistic interviews.
-- Expanded question database for a wider range of industries and roles.
-- Improved voice interaction for a seamless experience.
-
-## Feedback
-
-We highly value your feedback! Your insights can help us enhance AI Interviewer. Please take a moment to fill out our [Feedback Form](https://docs.google.com/forms/d/13f4q03bk4lD7sKR7qZ8UM1lQDo6NhRaAKv7uIeXHEaQ/viewform?edit_requested=true).
-
-## Contact
-
-## Contact
-
-- GitHub: [jiatastic](https://github.com/jiatastic)
 
 <!-- ## Acknowledgments
 
@@ -71,6 +58,7 @@ AI Interviewer is powered by a blend of advanced technologies:
 - OpenAI: Providing the generative AI capabilities.
 - FAISS: Enhancing search and retrieval capabilities.
 - Langchain: Facilitating natural language interactions.
+- GitHub: [jiatastic](https://github.com/jiatastic)
 
 The application is proudly built with [Streamlit](https://streamlit.io/).
 
